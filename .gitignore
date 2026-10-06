@@ -1,15 +1,2 @@
-# Python bytecode and cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
-venv/
-.venv/
-env/
-.env
-.env.localnode_modules/
-.next/
-dist/
-build/
-*.log
+# WIP/development scratch files
+.wip/
