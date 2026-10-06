@@ -1,0 +1,10 @@
+name: Bug report
+description: Report incorrect behavior
+labels: [bug]
+body:
+  - type: textarea
+    id: summary
+    attributes: { label: Summary, required: true }
+  - type: textarea
+    id: repro
+    attributes: { label: Reproduction steps, required: true }

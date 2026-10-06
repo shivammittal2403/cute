@@ -1,0 +1,2 @@
+-- Seed data for Supabase-backed deployments.
+-- Keep in sync with scripts/seed.py. Currently empty pending schema design.

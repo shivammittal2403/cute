@@ -1,0 +1,4 @@
+"""traceatlas.independence.graph - Graph.
+
+Part of the TraceAtlas-Automator investigation platform.
+"""

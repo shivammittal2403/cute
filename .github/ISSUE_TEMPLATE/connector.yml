@@ -1,0 +1,13 @@
+name: New source/connector
+description: Add a governed source
+labels: [connector]
+body:
+  - type: input
+    id: source_id
+    attributes: { label: Source id, required: true }
+  - type: dropdown
+    id: tier
+    attributes: { label: Requested qualification tier, options: [documented, integration_tested, live_verified, production_qualified], required: true }
+  - type: textarea
+    id: terms
+    attributes: { label: License / terms / robots policy, description: How we are permitted to collect from this source, required: true }

@@ -1,0 +1,6 @@
+# Governed source catalog: maps
+# Entries must validate against sources/schema/source.schema.json.
+# Tier discipline: documented -> integration_tested -> live_verified -> production_qualified
+domain: maps
+version: 0
+sources: []  # populated via scripts/seed_sources.py as sources are qualified
