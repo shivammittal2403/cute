@@ -49,13 +49,24 @@ class InvestigationManager:
             from traceatlas.sources.connectors.rdap import RDAPConnector
             from traceatlas.sources.connectors.http import HTTPConnector
             from traceatlas.sources.connectors.certificates import CertStreamConnector
+            from traceatlas.sources.connectors.rest_generic import (
+                IPGeoConnector, PrefixWhoisConnector, AsnInfoConnector,
+                WaybackConnector, ReverseDNSConnector)
             connectors = {
                 "dns-system": DNSConnector(),
                 "rdap-iana-bootstrap": RDAPConnector(),
                 "web-direct": HTTPConnector(),
                 "crtsh": CertStreamConnector(),
+                "ipwhois-co": IPGeoConnector(),
+                "rir-rdap-ip": PrefixWhoisConnector(),
+                "bgp-tools-asn": AsnInfoConnector(),
+                "archive-org-wayback": WaybackConnector(),
+                "hackertarget-reverse-dns": ReverseDNSConnector(),
             }
         self.connectors = connectors
+
+    def workspace(self, case_id: str) -> CaseWorkspace:
+        return CaseWorkspace(self.workspace_root, case_id)
 
     # --------------------------------------------------------------------- run
     def investigate(self, objective_text: str, case_id: str | None = None,
@@ -67,7 +78,7 @@ class InvestigationManager:
                     "reason": ("objective lacks valid authorization and caller did "
                                "not assert an authorized scope; refusing to collect"),
                     "ambiguities": list(spec.ambiguities)}
-        ws = CaseWorkspace(self.workspace_root, case_id or spec.case_id or _auto_case_id())
+        ws = CaseWorkspace(self.workspace_root, case_id or getattr(spec, "objective_id", None) or _auto_case_id())
         plan = Planner(self.sources).plan(spec)
         prior_obs = _load_observations(ws.observations_path)
         engine = InvestigationEngine(
