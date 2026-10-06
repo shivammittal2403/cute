@@ -1,0 +1,3817 @@
+{
+ "traceatlas/exceptions.py": {
+  "subsystem": "exceptions.py",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/__main__.py": {
+  "subsystem": "__main__.py",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/config.py": {
+  "subsystem": "config.py",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/logging.py": {
+  "subsystem": "logging.py",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/bootstrap.py": {
+  "subsystem": "bootstrap.py",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/constants.py": {
+  "subsystem": "constants.py",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/version.py": {
+  "subsystem": "version.py",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/__init__.py": {
+  "subsystem": "__init__.py",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/history.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/features.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/reversible_merge.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/normalization.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/explanation.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/merger.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/thresholds.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/conflicts.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/geographic.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/fuzzy_match.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/calibration.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/candidate_generation.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/schema.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/splitter.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/temporal.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/evaluation.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/exact_match.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/probabilistic.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/registry.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/contextual.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/__init__.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/blocking.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/resolver.py": {
+  "subsystem": "entities",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/entities/scorer.py": {
+  "subsystem": "entities",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/ownership_conflict.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/location_conflict.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/registration_conflict.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/severity.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/engine.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/resolution.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/candidate_pairs.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/value_conflict.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/historical_current.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/source_disagreement.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/__init__.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/identity_conflict.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/contradictions/temporal_conflict.py": {
+  "subsystem": "contradictions",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/knowledge_state.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/uncertainty.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/hypothesis_engine.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/human_review.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/engine.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/gap_engine.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/pattern_engine.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/action_ranker.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/contradiction_engine.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/stopping_engine.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/completion.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/information_gain.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/claim_engine.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/correlation_engine.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/__init__.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/alternative_hypothesis.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reasoning/next_best_action.py": {
+  "subsystem": "reasoning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/fact.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/investigation.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/enums.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/knowledge_state.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/relationship_type.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/information_gap.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/identifiers.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/validation.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/artifact.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/provenance.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/scope.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/jurisdiction.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/cost.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/entity_type.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/objective.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/hypothesis.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/entity.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/next_action.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/claim.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/contradiction.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/evidence.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/authorization.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/observation.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/relationship.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/task.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/result.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/confidence.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/event.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/timeline.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/serialization.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/citation.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/source_lineage.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/language.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/source.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/__init__.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/objective_spec.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/target.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/case.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/budget.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/core/verification.py": {
+  "subsystem": "core",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/transforms/engine.py": {
+  "subsystem": "transforms",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/transforms/__init__.py": {
+  "subsystem": "transforms",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/centrality.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/edge.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/shortest_path.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/snapshots.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/model.py": {
+  "subsystem": "graph",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/traversal.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/khop.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/rebuild.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/bridges.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/expansion.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/export.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/temporal.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/confidence.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/connected_components.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/query.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/diff.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/evidence_links.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/node.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/builder.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/community.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/repository.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/graph/__init__.py": {
+  "subsystem": "graph",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/context.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/validation.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/fallback.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/injection_detection.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/telemetry.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/cost.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/gateway.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/structured_output.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/adapter.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/context_window.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/routing_policy.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/router.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/__init__.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/capability.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/output_sanitization.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/untrusted_content.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/budget.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/ollama.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/mistral.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/deepseek.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/grok.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/openai.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/anthropic.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/qwen.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/gemini.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/providers/__init__.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/reasoning.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/entity_resolution.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/classification.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/summarization.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/contradiction.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/extraction.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/planning.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/__init__.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai/tasks/verification.py": {
+  "subsystem": "ai",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/__init__.py": {
+  "subsystem": "ai_employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/reasoning/__init__.py": {
+  "subsystem": "ai_employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/memory/__init__.py": {
+  "subsystem": "ai_employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/osint_investigation/investigator.py": {
+  "subsystem": "ai_employees",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/osint_investigation/__init__.py": {
+  "subsystem": "ai_employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/runtime/employee.py": {
+  "subsystem": "ai_employees",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/runtime/result_envelope.py": {
+  "subsystem": "ai_employees",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/runtime/dispatcher.py": {
+  "subsystem": "ai_employees",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/runtime/task_envelope.py": {
+  "subsystem": "ai_employees",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/ai_employees/runtime/__init__.py": {
+  "subsystem": "ai_employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/context.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/task_queue.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/resumability.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/engine.py": {
+  "subsystem": "investigation",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/recovery.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/progress.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/state.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/audit.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/retry.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/manager.py": {
+  "subsystem": "investigation",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/cancellation.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/scheduler.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/parallel_executor.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/executor.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/kill_switch.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/checkpoints.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/dependencies.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/session.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/lifecycle.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/task_graph.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/__init__.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/timeout.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/wave_executor.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/investigation/backoff.py": {
+  "subsystem": "investigation",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/classifier.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/simhash.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/fingerprints.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/citation_graph.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/exact_duplicate.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/upstream_dataset.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/publisher_ownership.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/explanation.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/temporal_copying.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/citation_extraction.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/shingles.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/graph.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/minhash.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/__init__.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/syndication.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/independence/near_duplicate.py": {
+  "subsystem": "independence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/availability.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/health.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/independence.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/cost.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/ranker.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/quota.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/rate_limit.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/qualification.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/lineage.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/credentials.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/manifest.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/router.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/selector.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/freshness.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/lifecycle.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/scoring.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/registry.py": {
+  "subsystem": "sources",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/errors.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/authority.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/__init__.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/syndication.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/capability.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/providers/__init__.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/certificates.py": {
+  "subsystem": "sources",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/dns.py": {
+  "subsystem": "sources",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/webhook.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/rest_generic.py": {
+  "subsystem": "sources",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/http.py": {
+  "subsystem": "sources",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/rest.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/normalization.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/taxii.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/graphql.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/stix.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/file_feed.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/base.py": {
+  "subsystem": "sources",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/search.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/stream.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/archive.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/dataset.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/pagination.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/rss.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/__init__.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/circuit_breaker.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/retries.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/misp.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/evidence_capture.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/atom.py": {
+  "subsystem": "sources",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/sources/connectors/rdap.py": {
+  "subsystem": "sources",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/statement_validator.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/scope.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/citations.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/unknowns.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/entities.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/findings.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/relationships.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/evidence_table.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/executive_summary.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/export_json.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/graph.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/export_pdf.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/claims.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/export_graph.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/replay_manifest.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/limitations.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/export_html.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/timeline.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/builder.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/report_manager.py": {
+  "subsystem": "reporting",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/export_csv.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/__init__.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/methodology.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/recommendations.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/export_stix.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/reporting/contradictions.py": {
+  "subsystem": "reporting",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/storage/interface.py": {
+  "subsystem": "storage",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/storage/s3.py": {
+  "subsystem": "storage",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/storage/local.py": {
+  "subsystem": "storage",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/storage/evidence.py": {
+  "subsystem": "storage",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/storage/backups.py": {
+  "subsystem": "storage",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/storage/minio.py": {
+  "subsystem": "storage",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/storage/__init__.py": {
+  "subsystem": "storage",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/storage/artifacts.py": {
+  "subsystem": "storage",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/report.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/employee.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/main.py": {
+  "subsystem": "cli",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/replay.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/evidence.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/doctor.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/investigate.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/source.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/__init__.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/cli/case.py": {
+  "subsystem": "cli",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/health.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/base.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/session.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/__init__.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/transaction.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/investigation.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/artifact.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/report.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/employee.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/audit.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/objective.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/hypothesis.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/entity.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/claim.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/contradiction.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/evidence.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/tenant.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/observation.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/relationship.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/task.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/connector.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/event.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/model_usage.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/timeline.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/source.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/user.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/__init__.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/models/case.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/tasks.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/audits.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/cases.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/entities.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/relationships.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/evidence.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/timelines.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/claims.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/investigations.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/sources.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/__init__.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/reports.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/db/repositories/contradictions.py": {
+  "subsystem": "db",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/retention.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/action_policy.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/scope.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/jurisdiction.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/engine.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/decision.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/privacy.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/authorization.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/human_approval.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/source_policy.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/policy/__init__.py": {
+  "subsystem": "policy",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/context.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/permissions.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/review.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/telemetry.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/employee.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/case_memory.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/memory.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/state.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/result_envelope.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/dispatcher.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/base.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/heartbeat.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/working_memory.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/task_envelope.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/handoff.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/manifest.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/failure.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/router.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/capabilities.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/orchestrator.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/supervisor.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/lifecycle.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/registry.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/__init__.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/checkpoint.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/budget.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/gap_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/cloud_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/geo_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/company_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/legal_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/verification_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/dns_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/video_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/image_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/package_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/dataset_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/search_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/news_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/code_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/vulnerability_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/audio_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/contradiction_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/asn_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/quality_supervisor.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/registry_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/procurement_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/entity_resolution_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/source_router.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/report_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/web_osint.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/infrastructure_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/username_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/socmint_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/malware_context_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/graph_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/archive_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/compliance_supervisor.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/ip_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/collection_coordinator.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/domain_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/timeline_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/exposure_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/cti_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/__init__.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/planner.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/document_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/person_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/investigation_manager.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/adversarial_supervisor.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/workers/supply_chain_analyst.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/resolve.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/report.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/correlate.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/normalize.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/analyze_video.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/contradict.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/search.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/graph.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/verify.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/extract.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/parse.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/timeline.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/analyze_image.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/geolocate.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/__init__.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/analyze_audio.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/analyze_document.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/employees/skills/fetch.py": {
+  "subsystem": "employees",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/app.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/authentication.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/pagination.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/dependencies.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/middleware.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/lifespan.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/errors.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/__init__.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/websocket.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/health.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/tasks.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/employees.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/auth.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/cases.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/entities.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/audit.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/objectives.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/media.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/relationships.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/replay.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/geo.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/admin.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/graph.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/evidence.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/claims.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/investigations.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/sources.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/timeline.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/hypotheses.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/connectors.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/metrics.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/__init__.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/reports.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/gaps.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/cti.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/routes/contradictions.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/auth.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/cases.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/entities.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/objectives.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/common.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/graph.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/evidence.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/claims.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/investigations.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/sources.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/errors.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/__init__.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/api/schemas/reports.py": {
+  "subsystem": "api",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/event_time.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/snapshots.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/validity_time.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/model.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/conflicts.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/normalizer.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/export.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/query.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/retrieval_time.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/events.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/builder.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/observation_time.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/__init__.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/timeline/correlation.py": {
+  "subsystem": "timeline",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/wave_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/planner_output.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/intelligence_domain_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/stop_condition_builder.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/worker_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/connector_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/verification_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/question_decomposer.py": {
+  "subsystem": "planning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/plan_validator.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/capability_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/subproblem_builder.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/risk_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/deterministic_validator.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/evidence_planner.py": {
+  "subsystem": "planning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/cost_planner.py": {
+  "subsystem": "planning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/__init__.py": {
+  "subsystem": "planning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/source_planner.py": {
+  "subsystem": "planning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/latency_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/dependency_planner.py": {
+  "subsystem": "planning",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/planning/semantic_planner.py": {
+  "subsystem": "planning",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/retention.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/redaction.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/egress.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/agent_policy.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/connector_permissions.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/deletion.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/case_isolation.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/abac.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/service_identity.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/quota.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/audit.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/rate_limit.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/malicious_document.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/tenant_isolation.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/authorization.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/ssrf.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/authentication.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/kill_switch.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/rbac.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/pii.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/prompt_injection.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/secrets.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/encryption.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/tool_injection.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/approval.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/__init__.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/media_sandbox.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/security/url_policy.py": {
+  "subsystem": "security",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/classifier.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/jurisdiction_resolver.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/temporal_scope.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/parser.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/question_generator.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/entity_extractor.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/normalizer.py": {
+  "subsystem": "objectives",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/target_extractor.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/constraint_extractor.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/requirement_extractor.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/ambiguity_detector.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/validator.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/__init__.py": {
+  "subsystem": "objectives",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/objectives/authorization_resolver.py": {
+  "subsystem": "objectives",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/certificates.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/dns.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/urls.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/historical_dns.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/relationships.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/domain.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/technologies.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/domainint/rdap.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/keyframes.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/provenance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/metadata.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/duplicate.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/objects.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/audio_track.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/scenes.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/timeline.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/ocr.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/vidint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/capec.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/taxii.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/attack.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/ioc.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/cve.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/stix.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/relationships.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/campaign.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/cwe.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/advisory.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/actor.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/cti/malware.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/searchint/ranking.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/searchint/query_expansion.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/searchint/query_builder.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/searchint/deduplication.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/searchint/multilingual.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/searchint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/darkint/policy.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/darkint/provenance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/darkint/safe_parser.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/darkint/quarantine.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/darkint/isolation.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/darkint/passive_collection.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/darkint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/urls.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/provenance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/citations.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/text.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/entities.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/metadata.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/layout.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/embedded_files.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/claims.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/ocr.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/docint/tables.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/clustering.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/imagery.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/reverse_geocoding.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/terrain.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/coordinates.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/boundaries.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/confidence.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/distance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/geoint/geocoding.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/transcription.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/provenance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/entities.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/metadata.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/diarization.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/timeline.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/language.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/audint/segmentation.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/common/pipeline.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/common/provenance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/common/result.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/common/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/personint/identity.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/personint/locations.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/personint/confidence.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/personint/aliases.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/personint/timeline.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/personint/public_profiles.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/personint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/personint/affiliations.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/archiveint/changes.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/archiveint/snapshots.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/archiveint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/archiveint/historical_state.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/subsidiaries.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/legal_identity.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/ownership.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/filings.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/timeline.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/procurement.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/officers.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/registrations.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/corpint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/webint/historical.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/webint/crawler.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/webint/links.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/webint/search.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/webint/metadata.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/webint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/webint/page_parser.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/usernameint/normalization.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/usernameint/discovery.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/usernameint/confidence.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/usernameint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/usernameint/correlation.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/codeint/contributors.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/codeint/provenance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/codeint/commits.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/codeint/packages.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/codeint/dependencies.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/codeint/repository.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/codeint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/provenance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/media.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/model.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/usernames.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/hashtags.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/public_posts.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/public_relationships.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/timeline.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/public_profiles.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/socmint/public_groups.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/infraint/certificates.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/infraint/prefix.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/infraint/hosting.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/infraint/ip.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/infraint/historical.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/infraint/routing.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/infraint/asn.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/infraint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/crops.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/provenance.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/hashing.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/metadata.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/duplicate.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/objects.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/scenes.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/exif.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/perceptual_hash.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/ocr.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/landmarks.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/intelligence/imint/__init__.py": {
+  "subsystem": "intelligence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/source_snapshot.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/retention.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/capture.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/validation.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/artifact.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/provenance.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/citations.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/object.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/replay.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/custody.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/lineage.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/deduplication.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/hashing.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/store.py": {
+  "subsystem": "evidence",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/metadata.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/export.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/integrity.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/replay_manifest.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/access.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/versioning.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/raw_bytes.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/evidence/__init__.py": {
+  "subsystem": "evidence",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/claim_verifier.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/adversarial.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/independence.py": {
+  "subsystem": "verification",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/source_authority.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/engine.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/decision.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/alternative_explanations.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/association_vs_culpability.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/calibration.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/corroboration.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/integrity.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/confidence.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/temporal_consistency.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/relationship_verifier.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/identity_verifier.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/freshness.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/source_independence.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/__init__.py": {
+  "subsystem": "verification",
+  "status": "STUB_SCAFFOLD",
+  "last_validated_commit": "f8c741e"
+ },
+ "traceatlas/verification/contradictions.py": {
+  "subsystem": "verification",
+  "status": "REAL_OR_PARTIAL",
+  "last_validated_commit": "f8c741e"
+ }
+}
