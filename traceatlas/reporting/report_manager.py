@@ -22,6 +22,68 @@ from traceatlas.verification.independence import EvidenceDoc, IndependenceEngine
 
 
 class ReportManager:
+    # ------------------------------------------------------------------
+    # In-memory rendering (unit-testable without a case workspace)
+    # ------------------------------------------------------------------
+    @staticmethod
+    def classify_claim(claim: "Claim") -> str:
+        """Evidence-first claim state. Never fabricates support."""
+        from traceatlas.core.enums import ClaimStatus
+        if not claim.citations:
+            return "UNSUPPORTED"
+        if claim.status in (ClaimStatus.REFUTED, ClaimStatus.WITHDRAWN):
+            return "DISPUTED"
+        cited = {c.evidence_id for c in claim.citations}
+        if len(cited) >= 2:
+            return "SUPPORTED"
+        return "PARTIALLY_SUPPORTED"
+
+    def render_markdown(self, *, case_name: str = "case",
+                        entities: list | None = None,
+                        observations: list | None = None,
+                        claims: list | None = None,
+                        evidence: list | None = None) -> str:
+        lines: list[str] = [f"# TraceAtlas Investigation Report — {case_name}", ""]
+        lines.append("## Claims")
+        for cl in claims or []:
+            state = self.classify_claim(cl)
+            ev = ", ".join(f"`{c.evidence_id}`" for c in cl.citations) or "NONE"
+            lines.append(f"- **[{state}]** {cl.statement} (evidence: {ev})")
+        if not claims:
+            lines.append("- no claims raised")
+        lines.append("\n## Entities")
+        for e in entities or []:
+            lines.append(f"- {getattr(e, 'etype', getattr(getattr(e, 'kind', None), 'value', '?'))}: "
+                         f"**{getattr(e, 'label', getattr(e, 'display_name', '?'))}**")
+        lines.append("\n## Observations")
+        for o in observations or []:
+            lines.append(f"- `{o.subject_id}` → {o.predicate}: {o.value!r} "
+                         f"(evidence `{o.evidence_id}`, source {o.source_id})")
+        lines.append("\n## Replay manifest")
+        for ev in sorted(evidence or [], key=lambda e: e.sha256):
+            lines.append(f"- `{ev.evidence_id}` sha256={ev.sha256[:16]}… "
+                         f"<{ev.source_uri}>")
+        return "\n".join(lines) + "\n"
+
+    def replay_manifest(self, *, entities: list | None = None,
+                        observations: list | None = None,
+                        claims: list | None = None,
+                        evidence: list | None = None) -> dict:
+        """Machine-readable replay: every evidence artifact with its hash."""
+        return {
+            "version": 1,
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "claims": [c.to_dict() for c in (claims or [])],
+            "observations": [o.to_dict() for o in (observations or [])],
+            "evidence": [{"evidence_id": e.evidence_id, "sha256": e.sha256,
+                          "source_uri": e.source_uri,
+                          "bytes_length": e.size_bytes}
+                         for e in (evidence or [])],
+        }
+
+    # ------------------------------------------------------------------
+    # Workspace rendering (persisted case directories)
+    # ------------------------------------------------------------------
     def build(self, case_dir: str | Path) -> str:
         case_dir = Path(case_dir)
         state = json.loads((case_dir / "case_state.json").read_text()) \
@@ -112,8 +174,8 @@ class ReportManager:
         add("\n## Replay manifest")
         for ev in sorted(store.list_for_case(state.get("case_id", case_dir.name)),
                          key=lambda e: str(e.metadata.get("retrieved_at", e.sha256))):
-            add(f"- `{ev.evidence_id}` sha256={ev.sha256[:16]}… {ev.bytes_length}B "
-                f"<{ev.source_uri}> retrieved {ev.metadata.get("retrieved_at","(unrecorded)")}")
+            add(f"- `{ev.evidence_id}` sha256={ev.sha256[:16]}… {ev.size_bytes}B "
+                '<{}> retrieved {}'.format(ev.source_uri, ev.metadata.get("retrieved_at", "(unrecorded)")))
 
         add("\n## Limitations")
         add("- Findings reflect only retained evidence; absence of evidence is stated, not inferred.")
