@@ -1,4 +1,6 @@
-"""traceatlas.planning.evidence_planner - Evidence Planner.
+"""traceatlas.planning.evidence_planner - Evidence obligations per requirement."""
+from __future__ import annotations
 
-Part of the TraceAtlas-Automator investigation platform.
-"""
+
+def obligations(requirements: tuple[str, ...]) -> list[str]:
+    return [f"raw capture + hash required for: {r}" for r in requirements]

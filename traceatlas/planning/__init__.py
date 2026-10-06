@@ -1,1 +1,1 @@
-"""traceatlas/planning package."""
+"""traceatlas.planning."""

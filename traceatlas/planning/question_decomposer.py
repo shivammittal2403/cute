@@ -1,4 +1,11 @@
-"""traceatlas.planning.question_decomposer - Question Decomposer.
+"""traceatlas.planning.question_decomposer - Objective -> sub-questions."""
+from __future__ import annotations
 
-Part of the TraceAtlas-Automator investigation platform.
-"""
+from traceatlas.core.objective_spec import ObjectiveSpec
+
+
+def decompose(spec: ObjectiveSpec) -> list[str]:
+    subs = []
+    for r in spec.requirements:
+        subs.append(f"How do we satisfy: {r}?")
+    return subs

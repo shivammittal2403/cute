@@ -1,4 +1,5 @@
-"""traceatlas.__main__ -   Main  .
+"""Entry point for `python -m traceatlas` -> CLI."""
+from traceatlas.cli.main import main
 
-Part of the TraceAtlas-Automator investigation platform.
-"""
+if __name__ == "__main__":
+    raise SystemExit(main())

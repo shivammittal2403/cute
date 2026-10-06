@@ -1,1 +1,1 @@
-"""traceatlas/objectives package."""
+"""traceatlas.objectives."""
