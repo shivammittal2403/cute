@@ -1,6 +1,2 @@
-# Python bytecode and caches
 __pycache__/
 *.pyc
-
-# Alembic migration cache (optional, but good practice if you generate them)
-# migrations/versions/*.py should be tracked, so no ignore needed for versions unless they are auto-generated temp files

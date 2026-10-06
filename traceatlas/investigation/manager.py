@@ -52,6 +52,16 @@ class InvestigationManager:
             from traceatlas.sources.connectors.rest_generic import (
                 IPGeoConnector, PrefixWhoisConnector, AsnInfoConnector,
                 WaybackConnector, ReverseDNSConnector)
+            from traceatlas.sources.connectors.rss import GoogleNewsRSSConnector
+            from traceatlas.sources.connectors.search import DuckDuckGoSearchConnector
+            from traceatlas.sources.connectors.dataset import (
+                OpenCorporatesConnector, WikidataConnector)
+            from traceatlas.sources.connectors.cti_generic import (
+                OSVConnector, CVERecordConnector)
+            from traceatlas.sources.connectors.geocoding import NominatimConnector
+            from traceatlas.sources.connectors.blockchain import BlockstreamBTCConnector
+            from traceatlas.sources.connectors.code import GitHubConnector
+            from traceatlas.sources.connectors.username import UsernameAvailabilityConnector
             connectors = {
                 "dns-system": DNSConnector(),
                 "rdap-iana-bootstrap": RDAPConnector(),
@@ -62,6 +72,16 @@ class InvestigationManager:
                 "bgp-tools-asn": AsnInfoConnector(),
                 "archive-org-wayback": WaybackConnector(),
                 "hackertarget-reverse-dns": ReverseDNSConnector(),
+                "google-news-rss": GoogleNewsRSSConnector(),
+                "duckduckgo-html": DuckDuckGoSearchConnector(),
+                "opencorporates": OpenCorporatesConnector(),
+                "wikidata": WikidataConnector(),
+                "osv-dev": OSVConnector(),
+                "cve-circl": CVERecordConnector(),
+                "nominatim-osm": NominatimConnector(),
+                "blockstream-btc": BlockstreamBTCConnector(),
+                "github-api": GitHubConnector(),
+                "username-probe": UsernameAvailabilityConnector(),
             }
         self.connectors = connectors
 

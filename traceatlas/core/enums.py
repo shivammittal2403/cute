@@ -110,7 +110,8 @@ class IntelligenceDomain(_StrEnum):
     DOMAININT = "domainint"; INFRAINT = "infraint"; CTI = "cti"
     GEOINT = "geoint"; IMINT = "imint"; VIDINT = "vidint"; AUDINT = "audint"
     DOCINT = "docint"; CODEINT = "codeint"; ARCHIVEINT = "archiveint"
-    DARKINT = "darkint"
+    DARKINT = "darkint"; NEWSINT = "newsint"; VULNINT = "vulnint"
+    SUPPLYCHAININT = "supplychainint"; BLOCKCHAININT = "blockchainint"
 
 
 class ProvenanceType(_StrEnum):
