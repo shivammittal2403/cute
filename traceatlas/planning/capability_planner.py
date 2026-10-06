@@ -7,7 +7,7 @@ from traceatlas.core.enums import IntelligenceDomain, TaskKind
 # SourceRegistry records advertise (see traceatlas/sources/registry.py).
 CAPABILITY_BY_DOMAIN: dict[IntelligenceDomain, list[str]] = {
     IntelligenceDomain.DOMAININT: ["rdap.domain", "dns.A", "dns.NS", "certificates.by_domain"],
-    IntelligenceDomain.INFRAINT: ["dns.AAAA"],
+    IntelligenceDomain.INFRAINT: ["dns.AAAA", "dns.ptr", "ip.geo", "prefix.owner", "asn.info"],
     IntelligenceDomain.CORPINT: ["registry.search", "officers.search", "filings.search"],
     IntelligenceDomain.PERSONINT: ["profile.search", "name.correlate"],
     IntelligenceDomain.USERNAMEINT: ["username.availability", "handle.correlate"],
@@ -18,6 +18,8 @@ CAPABILITY_BY_DOMAIN: dict[IntelligenceDomain, list[str]] = {
 }
 
 KIND_BY_CAPABILITY_PREFIX = {"rdap": TaskKind.COLLECT, "dns": TaskKind.COLLECT,
+                             "ip": TaskKind.COLLECT, "prefix": TaskKind.COLLECT,
+                             "archive": TaskKind.COLLECT,
                              "whois": TaskKind.COLLECT, "ip": TaskKind.COLLECT,
                              "asn": TaskKind.COLLECT, "web": TaskKind.COLLECT,
                              "page": TaskKind.COLLECT, "archive": TaskKind.COLLECT,
