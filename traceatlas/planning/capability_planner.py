@@ -14,7 +14,13 @@ CAPABILITY_BY_DOMAIN: dict[IntelligenceDomain, list[str]] = {
     IntelligenceDomain.SOCMINT: ["public_profile.fetch", "public_posts.search"],
     IntelligenceDomain.CTI: ["ioc.lookup", "cve.lookup", "actor.search"],
     IntelligenceDomain.GEOINT: ["geocode", "reverse_geocode"],
-    IntelligenceDomain.WEBINT: ["web.fetch"],
+    IntelligenceDomain.WEBINT: ["web.fetch", "web.search"],
+    IntelligenceDomain.ARCHIVEINT: ["archive.snapshots", "archive.availability"],
+    IntelligenceDomain.NEWSINT: ["news.search"],
+    IntelligenceDomain.SUPPLYCHAININT: ["vulnerabilities.by_package"],
+    IntelligenceDomain.VULNINT: ["cve.lookup"],
+    IntelligenceDomain.BLOCKCHAININT: ["wallet.transactions"],
+    IntelligenceDomain.CODEINT: ["repo.info", "org.repos"],
 }
 
 KIND_BY_CAPABILITY_PREFIX = {"rdap": TaskKind.COLLECT, "dns": TaskKind.COLLECT,
