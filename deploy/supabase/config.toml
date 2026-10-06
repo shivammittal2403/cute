@@ -1,0 +1,4 @@
+# Supabase project configuration placeholder
+project_id = "traceatlas"
+[api]
+port = 54321

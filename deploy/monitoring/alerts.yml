@@ -1,0 +1,8 @@
+groups:
+  - name: traceatlas
+    rules:
+      - alert: HighConnectorErrorRate
+        expr: rate(traceatlas_connector_errors_total[5m]) > 0.1
+        for: 10m
+        annotations:
+          summary: Connector error rate elevated

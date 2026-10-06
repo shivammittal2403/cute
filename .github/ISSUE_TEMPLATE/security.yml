@@ -1,0 +1,7 @@
+name: Security issue
+_description: Only for non-sensitive reports; use SECURITY.md otherwise_
+labels: [security]
+body:
+  - type: textarea
+    id: impact
+    attributes: { label: Potential impact, required: true }

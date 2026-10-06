@@ -1,0 +1,4 @@
+* @traceatlas/maintainers
+/sources/ @traceatlas/sources-team
+/traceatlas/security/ @traceatlas/security-team
+/web/ @traceatlas/frontend-team

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "traceatlas/sources/source.schema.json",
+  "title": "GovernedSource",
+  "type": "object",
+  "required": ["id", "name", "domain", "tier", "connector", "capabilities", "license", "terms_url", "rate_limit", "egress_class"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$"},
+    "name": {"type": "string"},
+    "domain": {"type": "string"},
+    "tier": {"enum": ["documented", "integration_tested", "live_verified", "production_qualified"]},
+    "connector": {"type": "string"},
+    "capabilities": {"type": "array", "items": {"type": "string"}},
+    "license": {"type": "string"},
+    "terms_url": {"type": "string", "format": "uri"},
+    "auth": {"enum": ["none", "api_key", "oauth", "basic"]},
+    "rate_limit": {"type": "object", "properties": {"requests_per_minute": {"type": "integer"}, "burst": {"type": "integer"}}},
+    "egress_class": {"enum": ["public_open", "credentialed", "restricted"]},
+    "robots_policy": {"enum": ["respect", "not_applicable"]},
+    "independence_group": {"type": ["string", "null"]},
+    "cost_model": {"type": "object"},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

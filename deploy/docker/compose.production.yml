@@ -1,0 +1,11 @@
+services:
+  api:
+    image: ghcr.io/traceatlas/backend:latest
+    restart: unless-stopped
+  worker:
+    image: ghcr.io/traceatlas/worker:latest
+    restart: unless-stopped
+  web:
+    image: ghcr.io/traceatlas/web:latest
+    restart: unless-stopped
+    ports: ["3000:3000"]

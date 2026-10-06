@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "traceatlas/sources/connector.schema.json",
+  "title": "ConnectorDescriptor",
+  "type": "object",
+  "required": ["id", "protocol", "normalization", "evidence_capture"],
+  "properties": {
+    "id": {"type": "string"},
+    "protocol": {"enum": ["http", "rest", "graphql", "rss", "atom", "search", "archive", "dataset", "file_feed", "webhook", "dns", "rdap", "stix", "taxii", "misp", "stream"]},
+    "pagination": {"type": "string"},
+    "retry_policy": {"type": "object"},
+    "circuit_breaker": {"type": "object"},
+    "normalization": {"type": "string"},
+    "evidence_capture": {"const": "required"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,2 @@
+-- Row-Level Security policies enforcing tenant and case isolation.
+-- Placeholder: one policy per table, always keyed on auth.jwt() -> tenant_id.

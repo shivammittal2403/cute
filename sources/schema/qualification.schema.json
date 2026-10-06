@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "traceatlas/sources/qualification.schema.json",
+  "title": "SourceQualificationRecord",
+  "type": "object",
+  "required": ["source_id", "tier", "evidence", "reviewed_by", "reviewed_at"],
+  "properties": {
+    "source_id": {"type": "string"},
+    "tier": {"enum": ["documented", "integration_tested", "live_verified", "production_qualified"]},
+    "evidence": {"type": "array", "items": {"type": "string"}, "description": "Test ids / fixture hashes / canary run links supporting the tier claim"},
+    "reviewed_by": {"type": "string"},
+    "reviewed_at": {"type": "string", "format": "date-time"},
+    "expiry": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,14 @@
+:root {
+  --bg: #0b0e14;
+  --fg: #e6e6e6;
+  --accent: #4f9cff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, sans-serif;
+}

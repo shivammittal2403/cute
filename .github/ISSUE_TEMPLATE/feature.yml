@@ -1,0 +1,10 @@
+name: Feature request
+description: Propose capability work
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes: { label: Problem statement, required: true }
+  - type: textarea
+    id: acceptance
+    attributes: { label: Acceptance criteria, required: true }

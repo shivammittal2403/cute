@@ -1,0 +1,11 @@
+name: deploy
+on:
+  push:
+    branches: [main]
+  pull_request: {}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo 'Manual approval required; see deploy runbooks'
