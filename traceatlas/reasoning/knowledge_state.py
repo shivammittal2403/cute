@@ -1,4 +1,0 @@
-"""traceatlas.reasoning.knowledge_state - Knowledge State.
-
-Part of the TraceAtlas-Automator investigation platform.
-"""
