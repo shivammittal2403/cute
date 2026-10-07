@@ -178,6 +178,12 @@ class PaymentLedger:
         from all loss math (requirement: displayed != received)."""
         return [e for e in self.entries if e.direction == "DISPLAY_ONLY"]
 
+    def unsupported_statement_lines(self) -> list[PaymentEntry]:
+        """Statement-only payment claims. These are allegations, not documented
+        payments: they remain visible for gap analysis but never enter totals."""
+        return [e for e in self.entries
+                if e.verification_state == "UNSUPPORTED_STATEMENT"]
+
     # ------------------------------------------------------------ accounting
     def totals_by_currency(self) -> dict[str, dict[str, Decimal]]:
         """Per-currency outflow/returns/provisional net loss. Unknown amounts
@@ -188,6 +194,12 @@ class PaymentLedger:
                       "unknown_amount_in": 0, "unknown_currency_in": 0}
         for e in self.entries:
             cur = (e.currency or "").upper()
+            # Fact-first law: a bare victim statement is an ALLEGATION, never
+            # a documented payment. UNSUPPORTED_STATEMENT entries stay visible
+            # in the ledger and in `unsupported_statement_lines()` but are
+            # excluded from every numeric total (they surface as gaps instead).
+            if e.verification_state == "UNSUPPORTED_STATEMENT":
+                continue
             if e.direction == "OUT":
                 if e.status in PROVISIONAL_OUTFLOW_STATUSES:
                     if e.amount is None:
