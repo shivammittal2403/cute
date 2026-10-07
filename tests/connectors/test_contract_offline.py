@@ -63,7 +63,7 @@ class TestInputValidation:
         assert not res.ok and "lat,lon" in res.error
 
 
-class TestNetworkFailureHonesty(monkeypatch):
+class TestNetworkFailureHonesty:
     """When outbound network is unavailable connectors must fail honestly
     (ok=False with an error), never fabricate observations."""
 
