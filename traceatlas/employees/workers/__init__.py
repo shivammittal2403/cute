@@ -1,1 +1,0 @@
-"""traceatlas/employees/workers package."""
